@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  width: 615px;
+  z-index: 1;
+}
+
+.logo {
+  background-color: white;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.nav-bar li a:hover {
+  background-color: pink;
+}
+
+.nav-container {
+  color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header {
+  background-color: #eb1818;
+  width: 100%;
+  height: 605px;
+  position: relative;
+  z-index: -2;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+h3 {
+  color: #c89446;
+  font-family: "Pinyon Script", cursive;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  color: #443928;
+  text-transform: capitalize;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text {
+  width: 445px;
+}
+
+.frame {
+  position: absolute;
+  z-index: -1;
+  border: #c89446 2px solid;
+  width: 350px;
+  height: 425px;
+  top: -21px;
+  left: 10px;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,131 @@
+//default of browser reset 
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap');
+
+$titleFont:'Pinyon Script', cursive;
+$titleSomething:'Source Sans Pro', sans-serif;
+
+$titleColor: #c89446; 
+
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+//------------nav-bar-----------
+
+nav{
+
+    width: 615px; 
+    z-index: 1;
+}
+
+.logo{
+    background-color: white; 
+}
+
+.nav-bar{
+    display: flex; 
+    justify-content: space-evenly;
+    li{
+        list-style: none ;
+
+        a{
+            color: #ffffff; 
+            text-decoration: none; 
+            font-family: $titleSomething; 
+            font-style: normal; 
+            font-weight: normal;
+            font-size: 14px; 
+            line-height: 18px; 
+            text-align: center; 
+
+            
+}
+
+    a:hover{
+    background-color: pink; 
+    }
+
+
+    }
+}
+
+.nav-container{
+    color: aliceblue; 
+    display: flex; 
+    max-width: 1110px;
+    width: 100%;
+    justify-content: space-between; 
+    
+}
+
+
+.header{
+    background-color: rgb(235, 24, 24); 
+    width: 100%;
+    height: 605px;
+  position: relative;
+  z-index: -2; 
+}
+
+
+
+//----------------hamburger--------------------
+section{
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto; 
+    //background-color: pink; 
+    // if you want to center, give a width 
+}
+.hamburger{
+display: flex; 
+justify-content: space-around; 
+//this is golden !! 
+position: relative;
+}
+
+h3{
+    color: $titleColor; 
+    font-family: $titleFont;  
+    line-height: 50px; 
+    font-size: 40px; 
+
+}
+h4{
+    font-family: $titleSomething; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 20px; 
+    line-height: 35px; 
+    letter-spacing: 2px; 
+    color: #443928; 
+    text-transform: capitalize; 
+}
+
+.text-container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.text{
+    width: 445px; 
+
+}
+
+.frame{
+    position: absolute; 
+    z-index: -1; 
+    border: #c89446 2px solid; 
+    width: 350px;
+    height: 425px;
+    top: -21px; 
+    left: 10px; 
+
+}
+
+
